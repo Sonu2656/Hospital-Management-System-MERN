@@ -1,47 +1,98 @@
-# 🏥 Hospital Information System
+MediZone - Hospital Management System
 
-## Overview
+MediZone is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that helps hospitals and clinics manage patient data, appointments, and services efficiently.
 
-The Hospital Management System is a web-based application that allows users to view hospital information and administrators to manage hospital records. The system includes features such as hospital registration, updates, deletion, and user authentication.
+🌐 Live Demo
 
+Backend API: MediZone BackendFrontend Website: MediZone Website
 
+📌 Features
 
-## User Guide
+User Signup & Login with JWT Authentication 🔑
 
-### For Users:
+Appointment Booking System 📅
 
-1.  Register an account or log in.
-2.  Browse hospitals and filter by city.
-3.  View hospital details like specialities and ratings.
-4.  Logout when done.
+Doctor Management 🩺
 
-### For Admins:
+Patient Information System 🏥
 
-1.  Log in with admin credentials.
-2.  Add a new hospital using the Add Hospital feature.
-3.  Edit hospital details by selecting a hospital and updating its information.
-4.  Delete hospitals as needed.
-5.  Logout when done.
+Admin Panel for User Management ⚙️
 
-## Tech Stack
+Secure Password Hashing 🔐
 
-### Frontend:
+MongoDB Database Integration 🚀
 
--   React.js (with Vite)
--   React Router for navigation
--   Axios for API calls
--   Tailwind CSS for styling
+🔑 Technologies Used
 
-### Backend:
+Technology
 
--   Node.js & Express.js
--   MongoDB with Mongoose
--   JWT Authentication
--   bcrypt for password hashing
+Description
 
-## Installation Guide
+MongoDB
 
-### Prerequisites
+Database
 
--   Node.js installed
--   MongoDB database
+Express.js
+
+Backend API
+
+React.js
+
+Frontend UI
+
+Node.js
+
+Server
+
+JWT
+
+Authentication
+
+Netlify
+
+Frontend Hosting
+
+Render
+
+Backend Hosting
+
+🛠️ Installation Steps
+
+1. Clone the Repository
+
+git clone https://github.com/Sonu2656/Hospital-Management-System-MERN.git
+cd Hospital-Management-System-MERN
+
+2. Backend Setup
+
+cd backend
+npm install
+
+Create a .env file and add:
+
+MONGO_URL=Your_MongoDB_URL
+JWT_SECRET=MediZoneSecret@123
+
+Start the Backend Server:
+
+node index.js
+
+3. Frontend Setup
+
+cd frontend
+npm install
+npm start
+
+🔗 Deployment Links
+
+Backend API: Render
+
+Frontend Website: Netlify
+
+📧 Contact
+
+Email: sonuhr2656@gmail.com
+
+GitHub: Sonu2656
+
+💪 Made with ❤️ by Sonu Choudhary
