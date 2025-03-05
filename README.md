@@ -2,9 +2,6 @@ MediZone - Hospital Management System
 
 MediZone is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that helps hospitals and clinics manage patient data, appointments, and services efficiently.
 
-🌐 Live Demo
-
-Backend API: MediZone BackendFrontend Website: MediZone Website
 
 📌 Features
 
